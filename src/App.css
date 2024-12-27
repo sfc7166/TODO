@@ -1,0 +1,54 @@
+.todo-app {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item.completed {
+  text-decoration: line-through;
+  background-color: #d4edda;
+}
+
+.todo-item.selected {
+  background-color: #f0f0f0;
+  border: 2px solid #007bff;
+}
+
+.todo-item small {
+  display: block;
+  font-size: 0.8em;
+  color: #888;
+}
+
+.todo-item button {
+  margin-left: 10px;
+}
+
+  
